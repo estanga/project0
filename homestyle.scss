@@ -1,0 +1,61 @@
+$font: Optima, sans-serif;
+$color: #838383;
+$headcolor: black;
+$font-size:23px;
+$post-size:18px;
+$border:3px solid #dbd2c8;
+$padding: 20px;
+$background:#dbd4c8;
+$margin: 20px;
+$radius: 10px;
+$margin-top: 10px;
+$width: 35%;
+$margin-left:auto;
+$margin-right:auto;
+$display:block;
+
+.blog{
+    font-family: $font;
+    color: $headcolor;
+    font-size: $font-size;
+    border:$border;
+    padding:$padding;
+    background-color: $background;
+    margin-left: $margin;
+    margin-right:$margin;
+    margin-top:$margin-top;
+    border-radius:$radius;
+
+      p{
+        font-family: $font;
+        color: $color;
+        font-size: $post-size;
+        border:$border;
+        padding:$padding;
+        background-color: $background;
+        border-radius:$radius;
+      }
+
+      img{
+        width:$width;
+        display:$display;
+        margin-left:$margin-left;
+        margin-right:$margin-right;
+      }
+      %message {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: $radius;
+        font-size: 20px;
+        height:30%;
+        width:150px;
+        position: relative;
+        color: white;
+        }
+
+      .button {
+          @extend %message;
+          background-color: #ff6961;
+      }
+}

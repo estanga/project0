@@ -1,0 +1,123 @@
+
+            a:link {color: black;}
+            a:visited {color: black;}
+            a:hover {color: gray;}
+            a:active {color: black;}
+
+            .row>div{
+                padding: 0px;
+                background-color: #dbd4c8;
+                border: 2px gray;
+            }
+            .artwork{
+                width: 300px;
+                padding: 20px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .artwork2{
+              width: 300px;
+              padding: 20px;
+
+            }
+            .text{
+              text-decoration:none;
+              font-family:Optima,sans-serif;
+              text-align: left;
+              font-weight: normal;
+              margin: 10px;
+            }
+
+            .text2{
+              text-decoration:none;
+              font-family:Optima,sans-serif;
+              font-size:18px;
+              text-align: left;
+              font-weight: normal;
+              margin-top: 90px;
+              padding: 15px;
+            }
+
+            .text3{
+              text-decoration:none;
+              font-family:Optima,sans-serif;
+              text-align: center;
+              font-weight: normal;
+              margin: 10px;
+            }
+
+            .title {
+              font-size: 20px;
+              text-align: center;
+              padding-top:30px;
+              font-weight:bold;
+            }
+            .title2{
+              font-size: 20px;
+              text-align: center;
+              padding-top:0px;
+              font-weight:bold;
+            }
+
+            .container {
+              display: flex;
+              flex-wrap: wrap;
+            }
+
+            @media (min-width: 800px) {
+              .portfolio{
+                height:320px;
+                width:100%;
+                border-radius: 10px;
+                padding: 5px;}
+              }
+
+            @media (max-width: 799px) {
+              .portfolio{
+                height:300px;
+                width:90%;
+                border-radius: 5px;
+                padding: 2px;}
+              }
+            .aboutme{
+              margin-top: 30px;
+              margin-bottom: 30px;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width:70%;
+            }
+            .text4{
+              font-family:Optima,sans-serif;
+              text-align: center;
+              font-weight: normal;
+              padding:10px;
+            }
+            table {
+                font-family:Optima,sans-serif;
+                border: 2px solid black;
+                border-collapse: collapse;
+                width: 40%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 10px;
+            }
+
+            td {
+                font-family:Optima,sans-serif;
+                border: 1px solid black;
+                padding: 5px;
+                text-align: center;
+            }
+            .social{
+              font-weight:bold;
+            }
+            .title3{
+              font-family:Optima,sans-serif;
+              font-size: 20px;
+              text-align: center;
+              padding-top:5px;
+              font-weight:bold;
+              margin-top:10px;
+            }
